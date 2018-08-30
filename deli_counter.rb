@@ -5,6 +5,6 @@ def line(deli)
     names_with_spot = deli.each_with_index.map do |name, index|
       "#{index + 1}. #{name}"
     end
-    puts "The line is currently: #{names_with_spot.join(', ')}"
+    puts "The line is currently: #{names_with_spot.join(' ')}"
   end
 end
