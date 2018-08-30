@@ -8,3 +8,7 @@ def line(deli)
     puts "The line is currently: #{names_with_spot.join(' ')}"
   end
 end
+
+def take_a_number(line, name)
+  
+end
