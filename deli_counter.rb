@@ -1,3 +1,3 @@
 def line(katz_deli)
-  return "There is nobody in line."
+  return "The line is currently empty."
 end
